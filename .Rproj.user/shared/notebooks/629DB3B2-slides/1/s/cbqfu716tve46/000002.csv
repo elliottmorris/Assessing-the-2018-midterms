@@ -1,0 +1,7 @@
+"0","house_master %>%
+  filter(clinton.margin.2016>0,dem.house.margin.2016<0) %>%
+  mutate(dem.house.margin.2018 = round(dem.house.margin.2018*100,1)) %>%
+  select(""Seat"" = district,""Dem. Margin"" = dem.house.margin.2018)
+"
+"2","Error in eval(lhs, parent, parent) : object 'house_master' not found
+"

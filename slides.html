@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Assessing the 2018 Midterms Elections</title>
+    <meta charset="utf-8">
+    <meta name="author" content="G. Elliott Morris   Data Journalist  The Economist" />
+    <meta name="date" content="2019-01-19" />
+    <link href="slides_files/remark-css-0.0.1/robot.css" rel="stylesheet" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+# Assessing the 2018 Midterms Elections
+## … and what they mean for 2020
+### G. Elliott Morris<br /><br /> Data Journalist <br /><em>The Economist</em>
+### January 19, 2019
+
+---
+
+
+
+class: two-column
+
+# The 2018 Midterms and 2020
+
+Some framing:
+
+.pull-left[ 
+
+2018: a blue wave
+
+![](https://media.giphy.com/media/bgv4OvHBEbBQc/giphy.gif)
+
+]
+
+.pull-right[
+
+2020: ```¯\_(ツ)_/¯ ```
+
+![](https://media.giphy.com/media/3og0IuRYv9EwXCJxkc/giphy.gif)
+]
+
+Though we know a lot already about what happened in the 2018 midterms, there's a lot we can't know about 2020 until we get closer.
+
+---
+
+# The 2018 Midterms
+
+
+We have three big questions...
+
+
+1. What did we expect?
+
+
+2. What happened?
+
+
+3. Why?
+
+
+---
+
+# 2018: Expectations
+
+(For the House of Representatives)
+
+Method: 
+
+
+1. Predict the national popular vote with generic ballot polls and the average swing in US House special election
+
+
+2. Add the swing in the national popular vote to seat-level fundamentals forecast and combine with district-level polling
+
+
+3. Simulate the election 50,000 times to account for the uncertainty in the various hierarchical forecasts
+
+&lt;br /&gt;
+
+Refer to (Bafumi et. al., 2014) for the conceptualization of distilling national information to the district level and (Bafumi et. al. 2018) for pre-election forecasts of the 2018 midterms and (Morris 2018) for the addition of district-level polling averages, obtained by aggregating data from public sources, and first round election results (only in CA and WA) using Bayesian precision weighting (Morris, 2018).
+
+
+---
+
+# 2018: Expectations
+
+Predictions:
+
+- Final pre-election forecast: Democrats win an average of 233 (D+39) seats (81% chance of a majority) with a popular vote margin of 8.8 pts.
+
+
+This program can be run as far out from the election as we want....
+
+
+- Prediction in January 2018 (the high point of Democrats' generic ballot advantage): Democrats win am average of 242 seats (90% chance of a majority) with a popular vote margin of 9.4 pts.
+- Prediction in July 2018 (the low point): Democrats win an average of 234 seats (75% chance of a majority)  with a popular vote margin of 8.8 pts.
+
+
+---
+
+# 2018: Results
+
+
+.pull-left[ 
+![](figures/house_change.png)
+]
+
+.pull-right[
+![](figures/senate_change.png)
+]
+
+
+_*The election in North Carolina's 9th Congressional district has yet to be resolved._
+
+---
+
+# 2018: Why?
+
+1. Midterm elections are a referendum on the president. It is not atypical for the party in the White House to lose a significant number of seats; the average loss since 1970 is 24 in the House. This is well-founded in the political science literature (Tufte, 1975; Erikson, 1988; Campbell, 1991; Jacobson, 2007; etc.).
+
+2. This year, the Republican majority was exposed by competetive seats, largely concentrated in suburban areas
+
+3. Whites and college-educated voters, who are much more likely to populate those areas, swung hard to the left
+
+4. But a mix of high-turnout among college-educated voters and liberals, salience of Democrat-dominated issues like health care, and overall higher loyalty to downballot Democrats than Hilalry Clinton helped them outperform in rural areas
+
+---
+
+# White Women Fled the GOP
+
+
+![](figures/demographics.png)
+
+
+---
+
+# The Nationalization of politics
+
+House outcomes are aligning with the presidency: Democrats flipped 87% of GOP-held districts that Clinton won...
+
+
+.pull-left[
+&lt;table&gt;
+ &lt;thead&gt;
+  &lt;tr&gt;
+   &lt;th style="text-align:left;"&gt; Seat &lt;/th&gt;
+   &lt;th style="text-align:right;"&gt; Dem. Margin &lt;/th&gt;
+  &lt;/tr&gt;
+ &lt;/thead&gt;
+&lt;tbody&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; AZ-02 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 9.5 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; CA-10 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 4.5 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; CA-21 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 0.8 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; CA-25 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 8.7 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; CA-39 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 3.1 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; CA-45 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 4.1 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; CA-48 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 7.1 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; CA-49 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 12.8 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; CO-06 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 11.2 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; FL-26 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 1.7 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; FL-27 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 6.0 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; IL-06 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 7.2 &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+]
+
+.pull-left[
+&lt;table&gt;
+ &lt;thead&gt;
+  &lt;tr&gt;
+   &lt;th style="text-align:left;"&gt;   &lt;/th&gt;
+   &lt;th style="text-align:left;"&gt; Seat &lt;/th&gt;
+   &lt;th style="text-align:right;"&gt; Dem. Margin &lt;/th&gt;
+  &lt;/tr&gt;
+ &lt;/thead&gt;
+&lt;tbody&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; 13 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; KS-03 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 9.7 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; 14 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; MN-03 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 11.4 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; 15 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; NJ-07 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 5.0 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; 16 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; NY-24 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; -5.3 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; 17 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; PA-01 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; -2.5 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; 18 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; PA-06 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 17.8 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; 19 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; PA-07 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 10.0 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; 20 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; TX-07 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 5.1 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; 21 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; TX-23 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; -0.4 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; 22 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; TX-32 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 6.5 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; 23 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; VA-10 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 12.4 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; 24 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; WA-08 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 4.8 &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+]
+
+
+---
+
+# The Nationalization of politics
+
+... but Democrats also did well in seats Trump won, winning 83% of them.
+
+
+&lt;table&gt;
+ &lt;thead&gt;
+  &lt;tr&gt;
+   &lt;th style="text-align:left;"&gt; Seat &lt;/th&gt;
+   &lt;th style="text-align:right;"&gt; Dem. Margin &lt;/th&gt;
+  &lt;/tr&gt;
+ &lt;/thead&gt;
+&lt;tbody&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; AZ-01 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 7.7 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; IA-02 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 12.2 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; IL-17 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 24.2 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; MN-01 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; -0.5 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; MN-07 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 4.3 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; MN-08 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; -5.5 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; NH-01 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 8.6 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; NJ-05 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 13.7 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; NV-03 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 9.1 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; NY-18 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 10.9 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; PA-08 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 9.3 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; WI-03 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 19.3 &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+
+This brings me to my final point: the hidden rural swing. 
+
+
+---
+class: center, middle
+
+
+# Overlooked fact of the 2018 midterms: Democrats improved on their 2016 performance most in rural areas.
+
+
+---
+# Rural America 
+
+![](figures/density_dems.png)
+
+
+---
+# Rural America
+
+
+Rural areas swung the furthest left from Clinton to Democrats in 2018, but the party still has not overcome a long-term decline since (at least) Obama's re-election in 2012.
+
+
+&lt;table&gt;
+ &lt;thead&gt;
+  &lt;tr&gt;
+   &lt;th style="text-align:left;"&gt; Density &lt;/th&gt;
+   &lt;th style="text-align:right;"&gt; Avg. Swing From Clinton &lt;/th&gt;
+   &lt;th style="text-align:right;"&gt; Avg. =Swing From Obama &lt;/th&gt;
+  &lt;/tr&gt;
+ &lt;/thead&gt;
+&lt;tbody&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; Pure rural &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 8.1 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 0.0 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; Rural-suburban mix &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 5.3 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 0.0 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; Sparse suburban &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 4.9 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 0.1 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; Urban-suburban mix &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 1.5 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 0.1 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; Dense suburban &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 5.5 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 0.1 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; Pure urban &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 3.8 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 0.1 &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+
+---
+# Rural America 
+
+Why did Democrats do so well in rural areas?
+
+Plausible explanations:
+
+- Mean Reversion: Areas that swung hard toward Trump were predisposed to swing back toward Clinton
+- Simple outperformance: Plausibly because of the salience of health care policy in the Midwest, Democrats did better than their Republican challengers
+
+
+---
+# Rural America 
+
+
+![:scale 90%](figures/mean_reversion.png)
+
+
+---
+
+# What 2018 forecasts for 2020:
+
+There's no relationship between midterm seat loss and swing in presidential vote share.
+
+![:scale 55%](figures/byler_2020.png)
+
+
+_Figure Courtesy of David Byler, WaPo_
+
+
+---
+
+# Thank you
+
+**Email: [elliott@thecrosstab.com](mailto:elliott@thecrosstab.com)**
+
+**Twitter: [@gelliottmorris](http://www.twitter.com/gelliottmorris)**
+
+**Find these data on Github: [github.com/elliottmorris](http://www.github.com/elliottmorris)**
+    </textarea>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script src="macros.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function() {
+  var d = document, s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})();</script>
+
+<script>
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+</script>
+
+<script>
+(function() {
+  var i, text, code, codes = document.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+})();
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>

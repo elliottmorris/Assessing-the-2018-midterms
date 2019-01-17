@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1547667585517.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "5|22|43|0|\n",
+    "hash" : "0",
+    "id" : "6D4FA407",
+    "lastKnownWriteTime" : 1547676107,
+    "last_content_update" : 1547676107598,
+    "path" : "~/Dropbox/Research/2019/Assessing the 2018 Midterms/figures.R",
+    "project_path" : "figures.R",
+    "properties" : {
+        "cursorPosition" : "117,0",
+        "scrollLine" : "83"
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

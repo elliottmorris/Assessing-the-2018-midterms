@@ -1,0 +1,38 @@
+year,president,party,approval,disapproval,net_approval,seatchg,senate_seatchg,gov_seatchg,president_term,term1
+1946,Truman,Democrat,33,52,-19,-55,-11,-2,Truman '46,1
+1948,Truman,Democrat,40,45,-5,75,,,,0
+1950,Truman,Democrat,39,46,-7,-29,-5,-6,Truman '50,0
+1952,Triman,Democrat,32,55,-23,,,,,0
+1954,Eisenhower,Republican,61,26,35,-18,-2,-8,Eisenhower '54,1
+1956,Eisenhower,Republican,72,18,54,,,,,0
+1958,Eisenhower,Republican,57,27,30,-47,-13,-5,Eisenhower '58,0
+1960,Eisenhower,Republican,58,28,30,,,,,0
+1962,Kennedy,Democrat,61,25,36,-5,4,0,Kennedy '62,1
+1964,Johnson,Democrat,70,16,54,,,,,0
+1966,Johnson,Democrat,44,41,3,-47,-3,-8,Johnson '66,0
+1968,Johnson,Democrat,43,48,-5,,,,,0
+1970,Nixon,Republican,58,27,31,-12,1,-11,Nixon '70,1
+1972,Nixon,Republican,60,30,30,,,,,0
+1974,Ford,Republican,54,28,26,-48,-4,-5,Ford '74,0
+1976,Ford,Republican,45,40,5,,,,,0
+1978,Carter,Democrat,49,36,13,-15,-3,-5,Carter '78,1
+1980,Carter,Democrat,34,55,-21,,,,,0
+1982,Reagan,Republican,42,48,-6,-26,0,-7,Reagan '82,1
+1984,Reagan,Republican,60,31,29,,,,,0
+1986,Reagan,Republican,63,29,34,-5,-8,8,Reagan '86,0
+1988,Reagan,Republican,55,36,19,,,,,0
+1990,G. H. W. Bush,Republican,58,32,26,-7,-1,-1,G. H. W. Bush '90,0
+1992,G. H. W. Bush,Republican,39,53,-14,,,,,0
+1994,Clinton,Democrat,46,46,0,-54,-8,-10,Clinton '94,1
+1996,Clinton,Democrat,56,35,21,,,,,0
+1998,Clinton,Democrat,66,30,36,4,0,0,Clinton '98,0
+2000,Clinton,Democrat,87,8,79,,,,,0
+2002,G. W. Bush,Republican,63,31,32,8,2,-1,G. W. Bush '02,1
+2004,G. W. Bush,Republican,52,45,7,,,,,0
+2006,G. W. Bush,Republican,38,55,-17,-30,-6,-6,G. W. Bush '06,0
+2008,G. W. Bush,Republican,27,69,-42,,,,,0
+2010,Obama,Democrat,45,49,-4,-63,-6,-6,Obama '10,1
+2012,Obama,Democrat,52,45,7,,,,,0
+2014,Obama,Democrat,42,53,-11,-13,-9,-3,Obama '14,0
+2016,Obama,Democrat,56,42,14,,,,,0
+2018,Trump,Republican,41,53,-12,-41,1,-6,Trump '18,1
