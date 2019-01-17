@@ -1,5 +1,5 @@
 ---
-title: "Assessing the 2018 Midterms Elections"
+title: "Assessing the 2018 Midterm Elections"
 subtitle: "... and what they mean for 2020"
 author: "G. Elliott Morris<br /><br /> Data Journalist <br />_The Economist_"
 date: "January 19, 2019"
