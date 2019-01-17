@@ -1,9 +1,0 @@
-### this file makes figures for the presentation slides
-
-source("~/setup_elliott.R")
-
-
-# average seat change -----------------------------------------------------
-
-df <- read_csv("data/seat_change.csv")
-

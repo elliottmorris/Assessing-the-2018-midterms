@@ -1,6 +1,0 @@
-"0","house <- read.csv(""data/house_master.csv"")"
-"0","house %>%"
-"0","  filter(clinton.margin.2016>0,dem.house.margin.2016<0) %>%"
-"0","  mutate(dem.house.margin.2018 = round(dem.house.margin.2018*100,1)) %>%"
-"0","  select(""Seat"" = district,""Dem. Margin"" = dem.house.margin.2018) %>%"
-"0","  tail(12) "
